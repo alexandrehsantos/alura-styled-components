@@ -1,10 +1,10 @@
 import React from "react";
-import { Box, Botao } from "../../Components/UI";
+import { Box, Botao } from "../UI";
 import { extratoLista } from "../../info";
 import Items from "../Items";
 
 
-const Extrato = () => {
+const Extrato = () => { 
   return (
     <Box>
       {extratoLista.updates.map(({ id, type, from, value, date }) => {
